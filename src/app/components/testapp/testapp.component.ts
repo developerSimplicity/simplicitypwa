@@ -34,7 +34,7 @@ export class TestappComponent implements OnInit {
   url4 = "assets/assetssimplicity/js/wp-polyfill.min.js";
   url5 = "assets/assetssimplicity/js/libs.min.js";
   url6 = "assets/assetssimplicity/js/main.min.js";
-  url7 = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js'";
+  url7 = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js";
   url8 = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js";
   url9 = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js";
   url10 = "https://unpkg.com/@barba/core";
@@ -47,6 +47,14 @@ export class TestappComponent implements OnInit {
     node.charset = "utf-8";
     document.getElementsByTagName("head")[0].appendChild(node);
   }
+  public show(a) {
+    let option = a;
+      for(let i =0;i<=5;i++){
+        if (option===i){
+          console.log("mostrar seccion : "+option);
+        }
+      }
+     }
 
   public loadScript1() {
     let node = document.createElement("script");

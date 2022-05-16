@@ -286,7 +286,7 @@ html {
 }
 
 body {
-    padding-top: 125px;
+    /*padding-top: 125px;*/
     max-width: 100%;
     min-height: 100vh;
     background-color: #f2f0ec;
@@ -295,7 +295,7 @@ body {
 
 @media (min-width: 1024px) {
     body {
-        padding-top:110px
+        /*padding-top:110px*/
     }
 }
 

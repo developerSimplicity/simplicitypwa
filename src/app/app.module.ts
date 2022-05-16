@@ -47,6 +47,12 @@ import { Component, Inject} from '@angular/core';
  import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { XunkCalendarModule } from '../xunk-calendar/xunk-calendar.module';
 import { TestappComponent } from './components/testapp/testapp.component';
+import { AsisomosComponent } from './components/asisomos/asisomos.component';
+import { NoseligenComponent } from './components/noseligen/noseligen.component';
+import { AsirespondemosComponent } from './components/asirespondemos/asirespondemos.component';
+import { AquiestamosComponent } from './components/aquiestamos/aquiestamos.component';
+import { EstohacemosComponent } from './components/estohacemos/estohacemos.component';
+import { TuequipoComponent } from './components/tuequipo/tuequipo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,6 +65,12 @@ import { TestappComponent } from './components/testapp/testapp.component';
     // DashboardComponent,
     // SuccessregisterComponent,
     TestappComponent,
+    AsisomosComponent,
+    NoseligenComponent,
+    AsirespondemosComponent,
+    AquiestamosComponent,
+    EstohacemosComponent,
+    TuequipoComponent,
   ],
   imports: [
     BrowserModule,
