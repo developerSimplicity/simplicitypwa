@@ -36,14 +36,6 @@ import { MatRadioModule } from '@angular/material/radio';
 import { FilePickerModule } from  '../assets/file-picker/src/public_api';
 //COMPONENTS
 import { Component, Inject} from '@angular/core';
-// import { HeaderComponent } from './components/header/header.component';
-// import { FooterComponent } from './components/footer/footer.component';
-// import { RegisterComponent } from './components/register/register.component';
-// import { LoginComponent } from './components/login/login.component';
-// import { LateralmenuComponent } from './components/lateralmenu/lateralmenu.component';
-// import { AccountComponent } from './components/account/account.component';
-// import { DashboardComponent } from './components/dashboard/dashboard.component';
-// import { SuccessregisterComponent } from './components/successregister/successregister.component';
  import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { XunkCalendarModule } from '../xunk-calendar/xunk-calendar.module';
 import { TestappComponent } from './components/testapp/testapp.component';
@@ -56,14 +48,7 @@ import { TuequipoComponent } from './components/tuequipo/tuequipo.component';
 @NgModule({
   declarations: [
     AppComponent,
-    // HeaderComponent,
-    // FooterComponent,
-    // RegisterComponent,
-    // LoginComponent,
-    // LateralmenuComponent,
-    // AccountComponent,
-    // DashboardComponent,
-    // SuccessregisterComponent,
+
     TestappComponent,
     AsisomosComponent,
     NoseligenComponent,

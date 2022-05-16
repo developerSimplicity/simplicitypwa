@@ -9,7 +9,7 @@ import { UserInterface } from '../../models/user-interface';
 import { UsercardInterface } from '../../models/usercard-interface'; 
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
-
+declare var $: any;
 @Component({
   selector: 'app-testapp',
   templateUrl: './testapp.component.html',
@@ -37,7 +37,7 @@ export class TestappComponent implements OnInit {
   url7 = "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js";
   url8 = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js";
   url9 = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js";
-  url10 = "https://unpkg.com/@barba/core";
+  url10 = "assets/assetssimplicity/js/barba.umd.js";  
 
   public loadScript() {
     let node = document.createElement("script");
